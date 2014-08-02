@@ -6,6 +6,7 @@ sudo add-apt-repository ppa:mapnik/v2.2.0
 sudo add-apt-repository ppa:mapnik/boost
 sudo apt-get update
 sudo apt-get install libboost-dev libboost-filesystem-dev libboost-program-options-dev libboost-python-dev libboost-regex-dev libboost-system-dev libboost-thread-dev
+sudo apt-get install python-mapnik2
 /usr/local/tiledrawer/setup.sh
 pip install cssutils
 pip install cascadenik
