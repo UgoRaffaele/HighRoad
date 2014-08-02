@@ -3,7 +3,9 @@ apt-get -y install git curl htop
 git clone -b config http://tiledrawer.com/.git/ /usr/local/tiledrawer
 sudo apt-get install -y python-software-properties
 sudo add-apt-repository ppa:mapnik/v2.2.0
+sudo add-apt-repository ppa:mapnik/boost
 sudo apt-get update
+sudo apt-get install libboost-dev libboost-filesystem-dev libboost-program-options-dev libboost-python-dev libboost-regex-dev libboost-system-dev libboost-thread-dev
 /usr/local/tiledrawer/setup.sh
 pip install cssutils
 pip install cascadenik
